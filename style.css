@@ -1,6 +1,5 @@
 html {
-    font-size: 15px;
-    background-color: #a9a9a9;
+    background-color: #ff4d0071;
     margin: 0 auto; 
 }
 
@@ -9,14 +8,27 @@ header{
     border-radius: 6px;
     padding: 1em;
     text-align: center;
+    font-size: 4rem;
 }
 
-nav li{
-    background-color: #ff85508d;
-    border-radius: 6px;
-    padding: 1em;
-    flex: auto;
-}
+nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
 
 .content-wrapper {
     display: flex;
@@ -30,6 +42,7 @@ nav li{
 .main-content {
     flex: 2;
     min-width: 250px;
+    font-size: 20px;
 }
 
 
