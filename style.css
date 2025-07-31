@@ -1,6 +1,7 @@
 html {
     background-color: #ff4d0071;
-    margin: 10px; 
+    margin: 25px; 
+    padding: 5px;
 }
 
 header{
@@ -15,6 +16,8 @@ nav {
     height: 50px;
     flex: 100%;
     display: flex;
+    background-color: #ff0000;
+    scroll-margin-bottom: 25px;
   }
   
 nav ul {
