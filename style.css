@@ -1,17 +1,21 @@
-.header{
+html {
+    font-size: 15px;
+    background-color: #a9a9a9;
+    margin: 0 auto; 
+}
+
+header{
     background-color: rgb(255, 196, 107);
-    text-size-adjust: 50px;
     border-radius: 6px;
     padding: 1em;
     text-align: center;
 }
 
-.navigation{
-    flex: 1;
-    size: 35px;
+nav li{
     background-color: #ff85508d;
     border-radius: 6px;
     padding: 1em;
+    flex: auto;
 }
 
 .content-wrapper {
@@ -54,6 +58,3 @@ aside {
     }
 }
 
-nav li{
-    flex: auto;
-}
