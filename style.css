@@ -1,12 +1,17 @@
 .header{
-    background-color: rgb(255, 223, 175);
-    size: 50px;
+    background-color: rgb(255, 196, 107);
+    text-size-adjust: 50px;
+    border-radius: 6px;
+    padding: 1em;
+    text-align: center;
 }
 
 .navigation{
     flex: 1;
     size: 35px;
-    background-color: #ff0000;
+    background-color: #ff85508d;
+    border-radius: 6px;
+    padding: 1em;
 }
 
 .content-wrapper {
