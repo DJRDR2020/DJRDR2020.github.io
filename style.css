@@ -1,9 +1,20 @@
+.header{
+    background-color: rgb(255, 223, 175);
+    size: 50px;
+}
+
+.navigation{
+    flex: 1;
+    size: 35px;
+    background-color: #ff0000;
+}
 
 .content-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     align-items: flex-start;
+    size: 20px;
 }
 
 
@@ -24,7 +35,7 @@ aside {
 
 .product {
     margin-bottom: 15px;
-    background: rgb(255, 212, 94);
+    background: rgb(226, 185, 109);
     padding: 10px;
     border: 1px solid #ff0000;
     border-radius: 4px;
