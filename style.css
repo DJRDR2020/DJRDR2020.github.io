@@ -2,7 +2,6 @@ html {
     background-color: #ff4d0071;
     margin: 25px; 
     padding: 5px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 header{
@@ -10,7 +9,8 @@ header{
     border-radius: 10px;
     padding: 1em;
     text-align: center;
-    font-size: 4rem;
+    font-size: 1rem;
+    font-family: cursive;
 }
 
 nav {
@@ -19,7 +19,6 @@ nav {
     display: flex;
     background-color: #ffd3758b;
     scroll-margin-bottom: 25px;
-    border: 1px solid #ff0000;
   }
   
 nav ul {
@@ -37,7 +36,6 @@ nav li {
     text-align: center;
     flex: 1;
     font-size: 3rem;
-    border: 1px solid #ff0000;
 }
 
 .content-wrapper {
@@ -54,6 +52,7 @@ nav li {
     flex: 2;
     min-width: 250px;
     font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
